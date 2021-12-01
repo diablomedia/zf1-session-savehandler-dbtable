@@ -13,7 +13,7 @@
         "php": "^7.4 || ~8.0 || ~8.1",
         "diablomedia/zendframework1-config": "^1.0.0 || ^2.0.0",
         "diablomedia/zendframework1-session": "^1.0.0",
-        "diablomedia/zendframework1-db": "^1.0.0"
+        "diablomedia/zendframework1-db": "dev-php-81 as 1.0.0"
     },
     "autoload": {
         "classmap": [
