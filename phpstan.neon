@@ -1,5 +1,4 @@
 parameters:
-    checkMissingIterableValueType: false
     treatPhpDocTypesAsCertain: false
     level: 8
     paths:
@@ -8,6 +7,8 @@ parameters:
         - %rootDir%/../../../vendor/*
         - %rootDir%/../../../tests/*
     ignoreErrors:
+        -
+            identifier: missingType.iterableValue
         # I believe $this->_name is checked with the empty check above this, but probably could be null still
         -
             message: '#Parameter \#1 \$haystack of function strpos expects string, string\|null given\.#'
