@@ -235,7 +235,7 @@ class Zend_Session_SaveHandler_DbTable extends Zend_Db_Table_Abstract implements
      */
     public function setOverrideLifetime($overrideLifetime)
     {
-        $this->_overrideLifetime = (boolean) $overrideLifetime;
+        $this->_overrideLifetime = (bool) $overrideLifetime;
 
         return $this;
     }
